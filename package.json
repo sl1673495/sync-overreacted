@@ -53,7 +53,7 @@
     "develop": "gatsby develop",
     "start": "npm run develop",
     "build": "rm -rf public && rm -rf .cache && gatsby build",
-    "now-build": "gatsby build",
+    "now-build": "cd public && now -n blog",
     "deploy": "yarn build && cp now.json public/ && cd public && now alias $(now) overreacted.io",
     "dry": "yarn build && cp now.json public/ && cd public && now",
     "js-to-jsx": "node src/utils/js-to-jsx"

@@ -1,15 +1,38 @@
-# [overreacted.io](https://overreacted.io/)
+# next-blog
+利用nextjs静态导出html的功能实现一键同步github issues博客，生成可以自己定制主题的静态html文件博客！
 
-My personal blog. Forked from [Gatsby blog starter](https://github.com/gatsbyjs/gatsby-starter-blog). Syntax theme based on [Sarah Drasner's Night Owl](https://github.com/sdras/night-owl-vscode-theme/) with small tweaks.
+### 预览地址
+https://blog.sl1673495.now.sh/
 
-To run locally, `yarn`, then `yarn dev`, then open https://localhost:8000.
+### 对应的我的github blog仓库
+https://github.com/sl1673495/blogs/issues
 
-## Contributing Translations
+### 运行
+安装依赖：
+```
+npm i
+```
+开发环境：
+```
+npm run dev
+```
+导出博客(会放在public目录下，导出后请进入public目录后启动anywhere或者http-server类似的静态服务然后访问)：
+```
+npm run sync && npm run build
+```
 
-You can translate any article on the website into your language!
+### 说明
 
-Add a Markdown file with the translation to the corresponding article folder. For example `index.fr.md` in `src/pages/optimized-for-change/`.
+#### 更换头像
+src/assets/avatar.jpeg
 
-If you're the first one to translate a post to your language, you'll need to add it to to the list in `./i18n.js`. See [this PR](https://github.com/gaearon/overreacted.io/pull/159) for an example. If your language needs special font characters, add it to the appropriate place in [this list](https://github.com/gaearon/overreacted.io/blob/5de6c128f798506a54a1a34c32cd5446beecc272/src/utils/i18n.js#L15).
+#### 同步仓库
+只需要在config.js里改掉repo的owner和name两个字段，  
+分别对应你的github用户名和博客仓库名，  
+然后执行`npm run sync`，  
+就可以在src/pages下看到你的issues博客。
+config中填写client_id和client_secret可以用于取消请求限制。
 
-**Please don't send translations for the Russian language — I will be translating into it myself when I find time.**
+### 使用[now](https://zeit.co/home)部署
+进入public目录，然后执行`now`，页面就会自动部署了。
+https://blog.sl1673495.now.sh/
