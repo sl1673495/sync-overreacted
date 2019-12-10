@@ -3,9 +3,9 @@ module.exports = {
     title: 'ssh的博客',
     author: 'ssh',
     description: 'Personal blog by ssh. I explain with words and code.',
-    siteUrl: 'https://overreacted.io',
+    siteUrl: 'https://github.com/sl1673495',
     social: {
-      twitter: '@dan_abramov',
+      twitter: '',
     },
   },
   pathPrefix: '/',
