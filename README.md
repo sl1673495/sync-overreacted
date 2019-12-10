@@ -8,20 +8,10 @@ https://blog.sl1673495.now.sh/
 https://github.com/sl1673495/blogs/issues
 
 ### 说明
+1. config.js里改掉repo的owner和name两个字段，分别对应你的github用户名和博客仓库名。
+如https://github.com/sl1673495/blogs/issues 这个仓库对应的owner是sl1673495，name是blogs。
 
-#### 更换头像
-src/assets/avatar.jpeg
-
-#### 同步仓库
-只需要在config.js里改掉repo的owner和name两个字段，  
-分别对应你的github用户名和博客仓库名，  
-然后执行`npm run sync`，  
-就可以在src/pages下看到你的issues博客。
-config中填写client_id和client_secret可以用于取消请求限制。
-
-### 使用[now](https://zeit.co/home)部署
-进入public目录，然后执行`now`，页面就会自动部署了。
-https://blog.sl1673495.now.sh/
+2. 更换头像可以修改src/assets/avatar.jpeg
 
 ### 运行  
 
@@ -31,15 +21,14 @@ https://blog.sl1673495.now.sh/
 ```
 npm i
 ```
-3. 同步博客并导出
+3. 同步博客并导出  
 按照上面的说明更改好配置以后
-
 ```
-// 同步博客
+// 同步博客 生成md文件
 npm run sync
-// 构建静态页面
+// 构建静态页面 输出到public目录下
 npm run build
-// 查看
+// 查看html页面
 cd public
 ```
 
