@@ -1,5 +1,5 @@
-# next-blog
-利用nextjs静态导出html的功能实现一键同步github issues博客，生成可以自己定制主题的静态html文件博客！
+# sync-overreacted
+利用gatsby静态导出html的功能实现一键同步github issues博客，生成可以自己定制主题的静态html文件博客，默认采用了overreacted.io的主题！
 
 ### 预览地址
 https://blog.sl1673495.now.sh/
