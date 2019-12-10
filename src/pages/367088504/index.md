@@ -1,7 +1,7 @@
 ---
 title: 'react-component源码学习（1） rc-form'
 date: '2018-10-05'
-spoiler: Here’s my blog.
+spoiler: ''
 ---
 
   rc-form作为ant-design系列实现表单组件的底层组件， 通用性和强大的功能兼得，这得益于它底层的精妙实现，rc-form是典型的高阶组件（higher-order component）

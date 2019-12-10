@@ -1,7 +1,7 @@
 ---
 title: 'Vue源码学习 计算属性computed'
 date: '2018-10-17'
-spoiler: Here’s my blog.
+spoiler: ''
 ---
 
   上一篇讲解（摘抄）了Vue响应式实现的原理，良好的设计为很多看似复杂的功能奠定了基础，使得这些功能的实际实现变得很简单。

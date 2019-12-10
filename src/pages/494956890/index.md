@@ -1,7 +1,7 @@
 ---
 title: '手把手教你用神器nextjs一键导出你的github博客文章生成静态html！'
 date: '2019-09-18'
-spoiler: Here’s my blog.
+spoiler: ''
 ---
 
   相信有不少小伙伴和我一样用github issues记录自己的blog，但是久而久之也发现了一些小问题，比如

@@ -1,7 +1,7 @@
 ---
 title: 'Vue源码学习 nextTick'
 date: '2018-11-23'
-spoiler: Here’s my blog.
+spoiler: ''
 ---
 
   vue在视图更新的时候是异步更新，这个很多人已经知道了，这么做的好处有很多，今天我们就来看看vue是如何调度这个异步更新队列去优化性能的。

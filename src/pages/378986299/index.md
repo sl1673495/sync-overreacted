@@ -1,7 +1,7 @@
 ---
 title: 'Vue源码学习 观察属性watch'
 date: '2018-11-09'
-spoiler: Here’s my blog.
+spoiler: ''
 ---
 
   上一篇介绍computed的文章讲到了，良好的设计对于功能的实现非常有帮助，computed的核心实现原理是计算watcher，那么watch其实也是基于watcher来实现的，我们还是从initWatch初始化看起。

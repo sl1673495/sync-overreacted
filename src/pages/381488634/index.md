@@ -1,7 +1,7 @@
 ---
 title: 'cube-ui源码学习 swipe组件'
 date: '2018-11-16'
-spoiler: Here’s my blog.
+spoiler: ''
 ---
 
   [swipe组件预览地址（手机模式可体验）](https://didi.github.io/cube-ui/#/zh-CN/docs/swipe)

@@ -1,7 +1,7 @@
 ---
 title: '使用React Hooks + 自定义Hook封装一步一步打造一个完善的小型应用。'
 date: '2019-08-30'
-spoiler: Here’s my blog.
+spoiler: ''
 ---
 
   ## 前言

@@ -1,7 +1,7 @@
 ---
 title: '关于如何触发浏览器重绘的一些尝试。'
 date: '2018-11-23'
-spoiler: Here’s my blog.
+spoiler: ''
 ---
 
   我们动态的往body节点上挂一个小球 并且更改它的top值 让它触发动画

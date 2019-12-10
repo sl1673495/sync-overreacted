@@ -1,7 +1,7 @@
 ---
 title: 'babel7的配置与优化。'
 date: '2019-03-15'
-spoiler: Here’s my blog.
+spoiler: ''
 ---
 
   网上关于babel7的文章很多，但是大多都没有实践，很多讲的模棱两可。

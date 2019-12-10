@@ -1,7 +1,7 @@
 ---
 title: '用jsx封装Vue中的复杂组件（网易云音乐实战项目需求）'
 date: '2019-07-31'
-spoiler: Here’s my blog.
+spoiler: ''
 ---
 
   ## 背景介绍

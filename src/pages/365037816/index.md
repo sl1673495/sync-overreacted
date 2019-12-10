@@ -1,7 +1,7 @@
 ---
 title: 'vue-router源码学习'
 date: '2018-09-28'
-spoiler: Here’s my blog.
+spoiler: ''
 ---
 
   ### 初始化

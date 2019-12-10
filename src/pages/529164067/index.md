@@ -1,7 +1,7 @@
 ---
 title: 'React + TypeScript + Hook 带你手把手打造类型安全的应用。'
 date: '2019-11-27'
-spoiler: Here’s my blog.
+spoiler: ''
 ---
 
   ## 前言

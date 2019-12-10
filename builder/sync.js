@@ -40,7 +40,7 @@ function injectHeader(blog) {
   const header = `---
 title: '${blog.title}'
 date: '${blog.created_at.slice(0, 10)}'
-spoiler: Here’s my blog.
+spoiler: ''
 ---
 `
   const result = `${header}

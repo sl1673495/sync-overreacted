@@ -1,7 +1,7 @@
 ---
 title: 'generator函数的本质。'
 date: '2018-09-28'
-spoiler: Here’s my blog.
+spoiler: ''
 ---
 
   异步流程控制器。

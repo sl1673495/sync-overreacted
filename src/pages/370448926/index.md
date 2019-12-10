@@ -1,7 +1,7 @@
 ---
 title: 'Vue源码学习 响应式数据'
 date: '2018-10-16'
-spoiler: Here’s my blog.
+spoiler: ''
 ---
 
   本文内容摘录自vue-design项目。

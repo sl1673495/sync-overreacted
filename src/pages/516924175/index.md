@@ -1,7 +1,7 @@
 ---
 title: '通过实现一个最精简的响应式系统来学习Vue的data、computed、watch。'
 date: '2019-11-04'
-spoiler: Here’s my blog.
+spoiler: ''
 ---
 
   ## 导读

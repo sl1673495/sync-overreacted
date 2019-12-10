@@ -1,7 +1,7 @@
 ---
 title: 'react-component源码学习（2） rc-steps'
 date: '2018-10-10'
-spoiler: Here’s my blog.
+spoiler: ''
 ---
 
   rc-steps是antd的步骤组件所依赖的底层组件，先看官方给的用法示例。
