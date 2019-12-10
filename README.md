@@ -7,20 +7,6 @@ https://blog.sl1673495.now.sh/
 ### 对应的我的github blog仓库
 https://github.com/sl1673495/blogs/issues
 
-### 运行
-安装依赖：
-```
-npm i
-```
-开发环境：
-```
-npm run dev
-```
-导出博客(会放在public目录下，导出后请进入public目录后启动anywhere或者http-server类似的静态服务然后访问)：
-```
-npm run sync && npm run build
-```
-
 ### 说明
 
 #### 更换头像
@@ -36,3 +22,30 @@ config中填写client_id和client_secret可以用于取消请求限制。
 ### 使用[now](https://zeit.co/home)部署
 进入public目录，然后执行`now`，页面就会自动部署了。
 https://blog.sl1673495.now.sh/
+
+### 运行  
+
+1. clone本项目
+
+2. 安装依赖
+```
+npm i
+```
+3. 同步博客并导出
+按照上面的说明更改好配置以后
+
+```
+// 同步博客
+npm run sync
+// 构建静态页面
+npm run build
+// 查看
+cd public
+```
+
+生成了html文件后，想怎么部署的方式都可以了。
+
+开发环境调试：
+```
+npm run dev
+```
