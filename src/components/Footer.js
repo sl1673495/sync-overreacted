@@ -16,16 +16,18 @@ class Footer extends React.Component {
         <a href={githubUrl} target="_blank" rel="noopener noreferrer">
           github
         </a>{' '}
-        &bull;{' '}
         {juejin && (
-          <a
-            href={juejin}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            掘金
-          </a>
+          <>
+            &bull;{' '}
+            <a href={juejin} target="_blank" rel="noopener noreferrer">
+              掘金
+            </a>
+          </>
         )}
+        &bull;{' '}
+        <a href="https://github.com/sl1673495/sync-overreacted" target="_blank" rel="noopener noreferrer">
+          生成你的专属博客
+        </a>
       </footer>
     );
   }
