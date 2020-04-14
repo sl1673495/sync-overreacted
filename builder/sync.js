@@ -31,6 +31,7 @@ module.exports = async () => {
 
     return blogs
   } catch (e) {
+    console.log('e: ', e);
     console.error('仓库拉取失败，请检查您的用户名和仓库名')
     throw e
   }
