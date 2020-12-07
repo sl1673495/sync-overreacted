@@ -4,7 +4,7 @@
 
 ### 预览地址
 
-https://blog.sl1673495.now.sh/
+https://ssh-blog.vercel.app/
 
 ### 对应的我的 github blog 仓库
 
@@ -43,7 +43,8 @@ npm run build
 cd public
 ```
 
-生成了 html 文件后，想怎么部署的方式都可以了。
+生成了 html 文件后，想怎么部署的方式都可以了。作者使用了 [vercel](https://vercel.com/) 这个平台去部署。
+
 
 开发环境调试：
 
