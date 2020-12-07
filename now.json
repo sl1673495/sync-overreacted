@@ -1,7 +1,0 @@
-{
-  "version": 2,
-  "alias": "sshBlog",
-  "builds": [
-    { "use": "@now/static-build", "src": "package.json", "config": { "distDir": "public" } }
-  ]
-}
