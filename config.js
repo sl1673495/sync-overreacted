@@ -1,6 +1,17 @@
 const path = require('path');
 const mdDir = path.resolve(__dirname, './src/pages');
-const { client_id, client_secret } = require('./.github');
+
+// Github 密钥
+let client_id;
+let client_secret;
+try {
+  const githubConfig = require('./.github');
+  client_id = githubConfig.client_id;
+  client_secret = githubConfig.client_secret;
+} catch (e) {
+  client_id = '';
+  client_secret = '';
+}
 
 const config = {
   mdDir,
