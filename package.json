@@ -55,7 +55,7 @@
     "start": "npm run develop",
     "build": "rm -rf public && rm -rf .cache && gatsby build",
     "all": "npm run sync && npm run build",
-    "deploy": "cp now.json public/ && cd public && now alias $(now) ssh-blog",
+    "deploy": "vercel public --prod",
     "dry": "yarn build && cp now.json public/ && cd public && now",
     "js-to-jsx": "node src/utils/js-to-jsx"
   },
